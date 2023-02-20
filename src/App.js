@@ -7,8 +7,8 @@ function App() {
     <>
       {/* <Navbar title="Text Utils" aboutText="About Text" /> */}
       <Navbar />
-      {/* <TextForm heading="Enter the text to analyze below" /> */}
-      <About />
+      <TextForm heading="Enter the text to analyze below" />
+      {/* <About /> */}
     </>
   );
 }
