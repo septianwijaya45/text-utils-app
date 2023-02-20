@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 
@@ -6,9 +7,8 @@ function App() {
     <>
       {/* <Navbar title="Text Utils" aboutText="About Text" /> */}
       <Navbar />
-      <div className="container">
-        <TextForm heading="Enter the text to analyze below" />
-      </div>
+      {/* <TextForm heading="Enter the text to analyze below" /> */}
+      <About />
     </>
   );
 }
